@@ -1,4 +1,4 @@
-"""Calculat the mutual information between X and Y in the 2-cell Landay model using the energy values
+"""Calculate the mutual information between X and Y in the 2-cell Landay model using the energy values
 """
 import numpy as np
 import utils
@@ -63,14 +63,14 @@ def run(ising_x, ising_y, beta):
 
 if __name__ == "__main__":
     # Load the data
-    setup_file = '../AEData/Raw/Landau_nc1000_steadystate_sweeph/setup_000.json'
+    setup_file = '../Data/Raw/Landau_nc1000_steadystate_sweeph/setup_000.json'
     ising_x, ising_y, setup_data = utils.read_json(setup_file)
     betas = np.array([0.1, 1, 10]) * ising_x.nc * 2
     for beta in betas:
         print(f'Calculating MI for beta={beta}')
         hs, MI = run(ising_x, ising_y, beta)
         df = pd.DataFrame({'hx': hs, 'hy': hs,'MI': MI})
-        df.to_csv(f'../AEData/Collected/collected_Landau_nc1000_analytic_beta_{beta}.tsv', sep="\t", index=False)
+        df.to_csv(f'../Data/Collected/collected_Landau_nc1000_analytic_beta_{beta}.tsv', sep="\t", index=False)
         plt.plot(hs, MI)
     plt.show()
     print('Finished')

@@ -16,9 +16,9 @@ else
 fi
 LINE_NUM=$(echo "$SLURM_ARRAY_TASK_ID + $OFFSET" | bc)
 
-#outdir=../AEData/Raw/Schlogl_nc1000_KZ_prot1_rate4
-outdir=../AEData/Raw/Schlogl_nc1000_KZ_prot2_rate4
-#outdir=../AEData/Raw/Schlogl_nc1000_KZ_prot3_rate4
+#outdir=../Data/Raw/Schlogl_nc1000_KZ_prot1_rate4
+outdir=../Data/Raw/Schlogl_nc1000_KZ_prot2_rate4
+#outdir=../Data/Raw/Schlogl_nc1000_KZ_prot3_rate4
 
 infile=$outdir/setup_000.json
 outfile=$outdir/out_${LINE_NUM}.pkl

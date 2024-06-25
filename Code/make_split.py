@@ -26,7 +26,7 @@ config = {"nc": 1000,
 #theta_ys = np.linspace(-0.05, 0.05, 41)
 #hxs = np.zeros(theta_xs.shape)
 #hys = np.zeros(theta_ys.shape)
-#output_directory = "../AEData/Raw/Landau_nc1000_steadystate_sweeptheta"  # Specify the output directory here
+#output_directory = "../Data/Raw/Landau_nc1000_steadystate_sweeptheta"  # Specify the output directory here
 # ----------------------------------------------------------------------------------------
 
 # ----------------------------------------------------------------------------------------
@@ -40,7 +40,7 @@ config = {"nc": 1000,
 #hys = np.linspace(-0.05, 0.05, 81)
 #theta_xs = np.zeros(hxs.shape)
 #theta_ys = np.zeros(hys.shape)
-#output_directory = "../AEData/Raw/Landau_nc1000_steadystate_sweeph"  # Specify the output directory here
+#output_directory = "../Data/Raw/Landau_nc1000_steadystate_sweeph"  # Specify the output directory here
 # ----------------------------------------------------------------------------------------
 
 # ----------------------------------------------------------------------------------------
@@ -49,7 +49,7 @@ config = {"nc": 1000,
 # theta_ys = np.linspace(-0.2, 0.2, 41)
 # hxs = np.zeros(theta_xs.shape)
 # hys = np.zeros(theta_ys.shape)
-# output_directory = "../AEData/Raw/Schlogl_nc1000_steadystate_sweeptheta"  # Specify the output directory here
+# output_directory = "../Data/Raw/Schlogl_nc1000_steadystate_sweeptheta"  # Specify the output directory here
 # ----------------------------------------------------------------------------------------
 
 # ----------------------------------------------------------------------------------------
@@ -64,14 +64,14 @@ hxs = np.linspace(-0.05, 0.05, 81)
 hys = np.linspace(-0.05, 0.05, 81)
 theta_xs = np.zeros(hxs.shape)
 theta_ys = np.zeros(hys.shape)
-output_directory = "../AEData/Raw/Schlogl_nc1000_steadystate_sweeph_shortt"  # Specify the output directory here
+output_directory = "../Data/Raw/Schlogl_nc1000_steadystate_sweeph_shortt"  # Specify the output directory here
 # ----------------------------------------------------------------------------------------
 
 # ----------------------------------------------------------------------------------------
 # KZ, Schlogl, scan h
 #config['simulation_type'] = 'KZ'
 #config['simulation_method'] = 'Schlogl'
-#output_directory = "../AEData/Raw/Schlogl_nc1000_KZ_prot1"  # Specify the output directory here
+#output_directory = "../Data/Raw/Schlogl_nc1000_KZ_prot1"  # Specify the output directory here
 ## Setup ramp
 #hi = 0.05
 #hf = -0.05

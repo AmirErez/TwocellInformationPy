@@ -15,7 +15,7 @@ else
 fi
 LINE_NUM=$(echo "$SLURM_ARRAY_TASK_ID + $OFFSET" | bc)
 
-outdir=../AEData/Raw/Landau_nc100_KZ_prot1_rate5
+outdir=../Data/Raw/Landau_nc100_KZ_prot1_rate5
 
 infile=$outdir/setup_000.json
 outfile=$outdir/out_${LINE_NUM}.pkl

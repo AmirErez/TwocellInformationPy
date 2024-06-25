@@ -10,9 +10,9 @@
 OFFSET=-1
 LINE_NUM=$(echo "$SLURM_ARRAY_TASK_ID + $OFFSET" | bc)
 
-#outdir=../AEData/Raw/Landau_nc1000_steadystate_sweeptheta
-#outdir=../AEData/Raw/Landau_nc1000_steadystate_sweeph
-outdir=../AEData/Raw/Landau_nc1000_steadystate_sweeph3
+#outdir=../Data/Raw/Landau_nc1000_steadystate_sweeptheta
+#outdir=../Data/Raw/Landau_nc1000_steadystate_sweeph
+outdir=../Data/Raw/Landau_nc1000_steadystate_sweeph3
 
 
 files=( $( ls $outdir/setup*.json ) )

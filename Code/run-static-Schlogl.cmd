@@ -9,8 +9,8 @@
 OFFSET=-1
 LINE_NUM=$(echo "$SLURM_ARRAY_TASK_ID + $OFFSET" | bc)
 
-#outdir=../AEData/Raw/Schlogl_nc1000_steadystate_sweeph
-outdir=../AEData/Raw/Schlogl_nc1000_steadystate_sweeph_shortt
+#outdir=../Data/Raw/Schlogl_nc1000_steadystate_sweeph
+outdir=../Data/Raw/Schlogl_nc1000_steadystate_sweeph_shortt
 
 files=( $( ls $outdir/setup*.json ) )
 infile=${files[$LINE_NUM]}
