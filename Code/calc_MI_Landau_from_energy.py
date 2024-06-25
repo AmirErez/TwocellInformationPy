@@ -63,7 +63,7 @@ def run(ising_x, ising_y, beta):
 
 if __name__ == "__main__":
     # Load the data
-    setup_file = '../Data/Raw/Landau_nc1000_steadystate_sweeph/setup_000.json'
+    setup_file = '../Data/Collected/Landau_nc1000_steadystate_sweeph__setup_000.json'
     ising_x, ising_y, setup_data = utils.read_json(setup_file)
     betas = np.array([0.1, 1, 10]) * ising_x.nc * 2
     for beta in betas:
