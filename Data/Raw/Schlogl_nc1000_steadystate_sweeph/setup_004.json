@@ -1,0 +1,14 @@
+{
+    "nc": 1000,
+    "hx": -0.04,
+    "hy": -0.04,
+    "theta_x": 0.0,
+    "theta_y": 0.0,
+    "gx": 1,
+    "gy": 1,
+    "BURNIN": 5000,
+    "MAX_ITER": 50000,
+    "simulation_type": "static",
+    "simulation_method": "Schlogl",
+    "store_arrays": false
+}

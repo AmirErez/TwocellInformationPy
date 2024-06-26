@@ -1,0 +1,14 @@
+{
+    "nc": 1000,
+    "hx": 0.023749999999999993,
+    "hy": 0.023749999999999993,
+    "theta_x": 0.0,
+    "theta_y": 0.0,
+    "gx": 1,
+    "gy": 1,
+    "BURNIN": 1000000,
+    "MAX_ITER": 200000000,
+    "simulation_type": "static",
+    "simulation_method": "Landau",
+    "store_arrays": false
+}
