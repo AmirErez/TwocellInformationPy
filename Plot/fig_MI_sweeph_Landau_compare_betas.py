@@ -11,7 +11,7 @@ from calc_MI_Landau_from_energy import calc_energy
 from scipy.sparse import csr_matrix
 #
 
-setup_file = '../Data/Raw/Landau_nc1000_steadystate_sweeph/setup_000.json'
+setup_file = '../Data/Collected/Landau_nc1000_steadystate_sweeph__setup_000.json'
 ising_x, ising_y, setup_data = read_json(setup_file)
 ising_x.h = 0
 ising_y.h = 0
